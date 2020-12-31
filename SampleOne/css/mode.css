@@ -1,0 +1,15 @@
+.english{
+    display: block;
+}
+.french{
+    display: none;
+}
+.container-dark .navbar{
+    background-color: rgb(0,0,0,0.5);
+}
+.container-dark .home-container{
+    background-color: rgb(0,0,0,0.5)
+}
+.container-dark .footer{
+    color: black;
+}

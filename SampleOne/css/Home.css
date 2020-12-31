@@ -1,0 +1,99 @@
+.home-container{
+    width: 80%;
+    height:auto;
+    display: block;
+    font-size: 24px;
+    margin-left:10%;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    margin-right: 10%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0,0,0,0.8);
+    border-radius: 10px;
+}
+.home-container .home-title{
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 100%;
+    text-align: left;
+    height: auto;
+}
+.home-container .home-body{
+    width: 100%;
+    padding-top: 50px;
+    height: auto;
+}
+.home-container .home-body .home-image{
+    width: 30%;
+    height: 450px;    
+    float:left;
+}
+.home-container .home-body .home-text{
+    float: left;
+    margin-left: 10%;
+    height: auto;
+    min-height:450px;
+    width: 50%;
+}
+.home-container .home-body .home-image img{
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width:1000px){
+    .home-container .home-body .home-image,.home-text{
+        width: 90%;
+        
+    }
+    .home-container .home-body .home-image{
+        height: 250px;
+    }
+    .home-container .home-body .home-image img{
+        width: 300px;
+    }
+}
+.home-container .home-body .home-text .home-text-title{
+    width: 100%;
+}
+.details{
+    width: 100%;
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.text-sub{
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+@media screen and (max-width:1000px){
+    .text-sub{
+        font-size: 15px;
+        text-align: center;
+    }
+    .home-text-title{
+        font-size: 17px;
+    }
+}
+.stats {
+    width: 100%;
+    display:inline-block;
+    margin-top: 100px;;
+}
+.stats .stats-con{
+    width: 20%;
+    float: left;
+    margin-left: 4%;
+    border-radius: 10px;
+    background-color: rgb(0,0,0,0.8);
+    height: 100px;
+    display: block;
+}
+@media screen and (max-width:1000px){
+    .stats .stats-con{
+        font-size: 17px;
+        margin-left: 1%;
+    }
+}
